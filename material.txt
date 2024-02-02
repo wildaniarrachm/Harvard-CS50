@@ -1,0 +1,61 @@
+html has two basic lists
+1. ordered list -> the items are in particular order
+2. unordered list -> the items are not in particular order
+
+Image
+
+tag: <img> => single html element therefore it has no closing tag
+img attributes:
+1. src (source) => the source of your image you want to display
+2. alt => text based description, in case if the web fail to render the image
+3. width => to adjust the size of the image
+
+Link
+tag: <a> => short for anchor
+attribute
+1. href -> contains the attached link
+inside of the tag, we'll have to make a content in which whenever
+user click that content they will be directed to the attached link
+
+Table
+1. table head <thead> -> consist of the heads <th> of the table
+2. table body <tbody> -> consists of the contents <td> (table data) of the table
+3. table row <tr>
+
+CSS (Cascading Style Sheet)
+- adding css to html
+1. inline style => directly putting the style inside the element
+2. internal style => adding style attributes to the DOM, exactly inside the head
+3. external style => exporting style attributes from an external css file.
+
+-Multiple element selector (h1, h2 {css attributes})
+-id => selector tag: #id -> add a styling to certain elements with the specific id
+-class => selector tag: .class -> giving styling to certain elements that belong to certain class
+
+CSS Specificity order
+1. inline
+2. id
+3. class
+4. type (the least specific)
+
+CSS Selectors 
+1. a, b -> Multiple element selector
+2. a b -> Descendant Selector
+3. a > b -> Child Selector
+4. a + b -> Adjacent Sibling Selector
+5. [a=b] -> Attribute Selector
+6. a:b -> Pseudoclass selector
+7. a::b -> Pseudoelement Selector
+
+Responsive Design
+1. viewport -> visual part of  the screen that user selector
+2. Media Queries -> controlling how our page is going to look depending on how we render that particular page
+
+Grid and Flexbox
+1. Grid was designed for two-dimensional layout; row and layout at the same time
+2. flexbox was designed for one dimensional layout; either row or column
+
+CSS Library
+1. Bootstrap
+2. Tailwind
+3. Chakra
