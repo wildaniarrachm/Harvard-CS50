@@ -59,3 +59,7 @@ CSS Library
 1. Bootstrap
 2. Tailwind
 3. Chakra
+
+Sass -> a css extension language
+sass is an entirely different language,therefore we should translate it to plain old css so that our browser is able
+to understand it. 
