@@ -1,0 +1,13 @@
+To access input:
+1. concatenate
+    syntax : print ("something" + variable)
+
+2. formatted string (f string)
+    syntax: print(f"Something, {variable}")
+
+Sequences
+Data Structures
+1. List -> Sequence of mutable values
+2. tuple -> sequence of immutable values
+3. set -> collection of unique values
+4. dict -> collection of key-value pairs
